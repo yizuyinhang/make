@@ -1,23 +1,114 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <block wx:if="{{canIUseOpenData}}" calss="userinfo-opendata">
-      <view class="userinfo-avatar" bindtap="bindViewTap">
-        <open-data type="userAvatarUrl"></open-data>
+<view class="view">
+  <view>
+      <swiper class="swiper"  autoplay="{{true}}" interval="{{5000}}" circular="{{true}}">
+          <swiper-item class="item">
+            <view>医院导航</view>
+          </swiper-item>
+          <swiper-item class="item">
+            <view>就诊指南</view>
+          </swiper-item>
+          <swiper-item class="item">
+            <view>停诊通知</view>
+          </swiper-item>
+          <swiper-item class="item">
+            <view>预约通知</view>
+          </swiper-item>
+      </swiper>
+    </view>
+    <view class="body">
+      <view class="top">  
+        <view class="men"><view id="u126_div" class=""></view>门诊服务</view>
+      <view class="title">
+        <view bind:tap="page" class="order1">
+        <view class="biaoti">
+          <view class="gua">
+          预约挂号
+       </view>
+        <view class="yue">
+          在线挂号预约
+        </view>
+        </view>
+        <view class="logo">
+          
+        </view>
       </view>
-      <open-data type="userNickName"></open-data>
-    </block>
-    <block wx:elif="{{!hasUserInfo}}">
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
-      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
-    </block>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+      <view class="order2" bind:tap="chong">
+       <view class="biaoti"> 
+        <view class="gua">
+          在线充值
+       </view>
+        <view class="yue1">
+          就诊卡预存充值
+        </view>
+       </view>
+        <view class="logo1">
+          
+        </view>
+      </view>
+      </view>
+      </view>
+      
+    </view>
+    
+    <view class="zhong">
+        
+      <view class="xuhao">
+        <view class="hezi" bind:tap="await">
+          <view class="lo"></view>
+          <view class="shen">候审</view>
+        </view>
+        <view class="hezi" bind:tap="pay">
+          <view class="lo"></view>
+          <view class="shen">自助缴费</view>
+        </view>
+        <view class="hezi">
+          <view class="lo"></view>
+          <view class="shen">门诊费用</view>
+        </view>
+        <view class="hezi">
+          <view class="lo"></view>
+          <view class="shen">在线退款</view>
+        </view>
+        <view class="hezi">
+          <view class="lo"></view>
+          <view class="shen">报告查询</view>
+        </view>
+        <view class="hezi">
+          <view class="lo"></view>
+          <view class="shen">核酸检测</view>
+        </view>
+      </view>
+    </view>
+      <view class="body body2">
+      <view class="top top2">  
+        <view class="men mener"><view id="u127_div"  class=""></view>门诊服务</view>
+      
+      </view>
+      
+    </view>
+    <view class="zhong zhong2">
+        
+        <view class="xuhao">
+          <view class="hezi" bind:tap="await">
+            <view class="lo"></view>
+            <view class="shen">医院介绍</view>
+          </view>
+          <view class="hezi" bind:tap="pay">
+            <view class="lo"></view>
+            <view class="shen">医院导航</view>
+          </view>
+          <view class="hezi">
+            <view class="lo"></view>
+            <view class="shen">就医指南</view>
+          </view>
+          <view class="hezi">
+            <view class="lo"></view>
+            <view class="shen">健康百科</view>
+          </view>
+        </view>
+      </view>
+
 </view>
+
+
+

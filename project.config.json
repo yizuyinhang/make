@@ -21,8 +21,9 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
+    "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -40,8 +41,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.16.0",
-  "appid": "wxda4e3b7ba288a561",
-  "projectname": "registration",
+  "appid": "wx7d5a5ba40280a5b2",
+  "projectname": "%E5%8C%BB%E9%99%A2%E5%89%8D%E5%8F%B0",
   "debugOptions": {
     "hidedInDevtools": []
   },

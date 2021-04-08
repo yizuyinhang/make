@@ -1,0 +1,31 @@
+<view class="my">
+<view class="top">
+  <view class="logo"><image class="logoimage" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2205854476,2577755156&fm=26&gp=0.jpg"></image></view>
+  <view class="name">
+  <view class="username">戚薇Sam</view>
+  <view class="phone">175****5986</view>
+  </view>
+</view>
+
+<view class="body" >
+  <block wx:for="{{[1, 2, 3,4,5,6]}}" wx:key='key'>
+    <view class="title"  bind:tap="wode">
+  <view class="pic">
+    <image class="img" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1272149684,3295844101&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class="names">管理就诊人</view>
+  <view class="you">></view>
+</view>
+  </block>
+
+
+
+</view>
+
+
+
+</view>
+
+
+
+

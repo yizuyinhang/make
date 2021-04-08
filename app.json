@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/personal/personal",
     "pages/logs/logs"
   ],
   "window":{
@@ -10,5 +11,14 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/personal/personal",
+      "text": "个人中心"
+    }]
+  }
 }
