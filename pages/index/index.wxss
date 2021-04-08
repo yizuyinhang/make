@@ -108,7 +108,7 @@
   border-radius: 8rpx;
 }
 .top{
-  height: 260rpx;
+  height: 270rpx;
 }
 .zhong{
   width: 100%;
