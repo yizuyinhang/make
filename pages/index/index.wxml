@@ -89,14 +89,19 @@
     <view class="zhong zhong2">
         
         <view class="xuhao">
-          <view class="hezi" bind:tap="await">
+          <navigator url="/pages/introduce/introduce">
+         <view class="hezi" bind:tap="await">
             <view class="lo"></view>
             <view class="shen">医院介绍</view>
           </view>
-          <view class="hezi" bind:tap="pay">
+          </navigator>
+        <navigator url="/pages/nav/nav">
+           <view class="hezi" bind:tap="pay">
             <view class="lo"></view>
             <view class="shen">医院导航</view>
           </view>
+        </navigator>
+         
           <view class="hezi">
             <view class="lo"></view>
             <view class="shen">就医指南</view>

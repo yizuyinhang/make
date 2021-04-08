@@ -1,0 +1,40 @@
+/* pages/nav/nav.wxss */
+.image{
+  width: 80rpx;
+  height: 80rpx;
+  background-color:#e4f0ff;
+  float: left;
+  border-radius: 20rpx;
+  margin:30rpx 30rpx;
+
+}
+.hezi{
+  width: 95%;
+  height: 150rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.nav{
+  width: 70%;
+  height: 100rpx;
+  float: left;
+}
+.xiang{
+ width: 60%;
+ height: 50rpx;
+ margin-top:30rpx ;
+  font-size: 32rpx;
+}
+.bei{
+  color: #cccccc;
+  font-size: 26rpx;
+  margin-top: 5rpx;
+}
+.left{
+  float: right;
+  width: 10%;
+height: 50rpx;
+/* background-color: aqua; */
+margin-top: 50rpx;
+font-size: 40rpx;
+color: #cccccc;
+}

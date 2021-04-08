@@ -1,13 +1,19 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/navs/navs",
+    "pages/nav/nav",
+   
+   
+    "pages/introduce/introduce",
+    
     "pages/personal/personal",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "首页",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",

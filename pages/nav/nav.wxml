@@ -1,0 +1,39 @@
+<!--pages/nav/nav.wxml-->
+<view>
+  <!-- **************************** -->
+  <navigator url="/pages/navs/navs">
+     <view class="hezi">
+    <!-- 图片位置 -->
+    <view class="image"></view>
+    <view class="nav">
+     <view class="xiang"> 湘南院区</view>
+     <view class="bei"> 北京市大兴区**路990号</view>
+    </view>
+    <view class="left">></view>
+  </view>
+  </navigator>
+ 
+  <!-- ********************************** -->
+    <!-- **************************** -->
+    <view class="hezi">
+    <!-- 图片位置 -->
+    <view class="image"></view>
+    <view class="nav">
+     <view class="xiang"> 东院区</view>
+     <view class="bei"> 北京市大兴区**路990号</view>
+    </view>
+    <view class="left">></view>
+  </view>
+  <!-- ********************************** -->
+    <!-- **************************** -->
+    <view class="hezi">
+    <!-- 图片位置 -->
+    <view class="image"></view>
+    <view class="nav">
+     <view class="xiang"> 西园区</view>
+     <view class="bei"> 北京市大兴区**路990号</view>
+    </view>
+    <view class="left">></view>
+  </view>
+  <!-- ********************************** -->
+</view>
