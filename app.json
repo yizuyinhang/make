@@ -1,12 +1,16 @@
 {
   "pages":[
+  
     "pages/index/index",
+    "pages/health/health",
+    "pages/guide/guide",
+    "pages/flow/flow",
+    "pages/navcourt/navcourt",
+    "pages/healths/healths",
+    "pages/navmap/navmap",
     "pages/navs/navs",
     "pages/nav/nav",
-   
-   
     "pages/introduce/introduce",
-    
     "pages/personal/personal",
     "pages/logs/logs"
   ],

@@ -1,0 +1,4 @@
+<!--pages/navmap/navmap.wxml-->
+<view class="map-box">
+      <map id="map" latitude="40.13012" longitude="116.65477" scale="14" markers="{{markers}}"></map>
+   </view>

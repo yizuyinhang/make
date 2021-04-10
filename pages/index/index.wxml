@@ -101,15 +101,19 @@
             <view class="shen">医院导航</view>
           </view>
         </navigator>
-         
-          <view class="hezi">
+         <navigator url="/pages/guide/guide">
+           <view class="hezi">
             <view class="lo"></view>
             <view class="shen">就医指南</view>
           </view>
-          <view class="hezi">
+         </navigator>
+        <navigator url="/pages/health/health">
+           <view class="hezi">
             <view class="lo"></view>
             <view class="shen">健康百科</view>
           </view>
+        </navigator>
+         
         </view>
       </view>
 
