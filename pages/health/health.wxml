@@ -1,0 +1,58 @@
+<!--pages/health/health.wxml-->
+
+ 
+  <view>
+     <!-- ****************************** -->
+     <navigator url="/pages/healths/healths">
+         <view class="hezi">
+    <!-- 图片位置 -->
+    <view class="a">
+         <view class="image"></view>
+    <view class="nav">
+     <view class="xiang"> 利用分餐制 可有效避免幽门螺杆菌感染</view>
+     <view class="bei"> 王敏  2020/09/08</view>
+    </view>
+  </view>
+</view>
+     </navigator>
+
+  <!-- ****************************** -->
+   <!-- ****************************** -->
+   <view class="hezi">
+    <!-- 图片位置 -->
+    <view class="a">
+         <view class="image"></view>
+    <view class="nav">
+     <view class="xiang"> 利用分餐制 可有效避免幽门螺杆菌感染</view>
+     <view class="bei"> 王敏  2020/09/08</view>
+    </view>
+  </view>
+</view>
+  <!-- ****************************** -->
+   <!-- ****************************** -->
+   <view class="hezi">
+    <!-- 图片位置 -->
+    <view class="a">
+         <view class="image"></view>
+    <view class="nav">
+     <view class="xiang"> 利用分餐制 可有效避免幽门螺杆菌感染</view>
+     <view class="bei"> 王敏  2020/09/08</view>
+    </view>
+  </view>
+</view>
+  <!-- ****************************** -->
+   <!-- ****************************** -->
+   <view class="hezi">
+    <!-- 图片位置 -->
+    <view class="a">
+         <view class="image"></view>
+    <view class="nav">
+     <view class="xiang"> 利用分餐制 可有效避免幽门螺杆菌感染</view>
+     <view class="bei"> 王敏  2020/09/08</view>
+    </view>
+  </view>
+</view>
+  <!-- ****************************** -->
+  
+</view>
+

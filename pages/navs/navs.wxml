@@ -32,7 +32,8 @@
 <!-- 下面盒子 -->
 <!-- ******************************* -->
 <view>
-  <view class="hezis">
+<navigator class="" target="" url="/pages/navmap/navmap" hover-class="navigator-hover" open-type="navigate" >
+   <view class="hezis">
     <!-- 图片位置 -->
     <view class="images"></view>
     <view class="nav">
@@ -40,7 +41,10 @@
     </view>
     <view class="left">></view>
   </view>
-  <view class="hezis">
+</navigator>
+ 
+  <navigator url="/pages/navcourt/navcourt">
+    <view class="hezis">
     <!-- 图片位置 -->
     <view class="images"></view>
     <view class="nav">
@@ -48,5 +52,7 @@
     </view>
     <view class="left">></view>
   </view>
+  </navigator>
+
 </view>
 <!-- ********************************* -->
