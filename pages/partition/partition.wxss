@@ -1,0 +1,73 @@
+/* pages/bask/bask.wxss */
+.body{
+  width: 100%;
+  height: auto;
+  background-color: #030000;
+}
+#body{
+  width: 100%;
+  margin-top: 30rpx;
+  height: auto;
+  background-color: #423939;
+}
+.view1{
+  width: 200rpx;
+  float: left;
+  line-height: 96rpx;
+  font-size: 26rpx;
+
+  background-color: whitesmoke;
+}
+.view2{
+  font-size: 26rpx;
+  width: 400rpx;
+  float: left;
+}
+.name{
+  
+  padding-left: 30rpx;
+  color: #333333;
+  border-bottom: 1rpx solid #F1F1F1;
+  width: auto;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+.title{
+  width: 280rpx;
+  height: 96rpx;
+  padding-left: 30rpx;
+}
+.top{
+  width: 72%;
+  height: 53rpx;
+  border: 1rpx solid #F1F1F1;
+  border-radius: 10rpx;
+  margin-left: 118rpx;
+}
+.area{
+  font-size: 24rpx;
+  float: left;
+  width: 160rpx;
+  margin-top: 5rpx;
+  margin-left: 5rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.areafind{
+  background-color: #006EFF;
+  color: #ffffff;
+}
+.baskfind{
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+

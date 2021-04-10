@@ -1,0 +1,23 @@
+<view class="top">
+  <block wx:for="{{area}}" wx:key="item">
+      <view class="area {{item.class}}">{{item.name}}</view>
+  </block>
+</view>
+<view class="body" id="body">
+  <view class="body">
+    <view class="div">
+  <view class="view1">
+    <view  wx:for="{{bask}}" wx:key="item">
+    <view bind:tap="find" data-id="{{item.id}}" class="title {{item.class}}">{{item.name}}</view>
+    </view>
+  </view>
+  <view class="view2">
+    <view  wx:for="{{findbask}}" wx:key="item">
+    <view class="name" bind:tap="doctors" data-id="{{item.id}}">{{item.name}}</view>
+    </view>
+  </view>
+</view>
+  </view>
+</view>
+
+

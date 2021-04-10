@@ -19,7 +19,7 @@
       <view class="top">  
         <view class="men"><view id="u126_div" class=""></view>门诊服务</view>
       <view class="title">
-        <view bind:tap="page" class="order1">
+        <view bind:tap="person" class="order1">
         <view class="biaoti">
           <view class="gua">
           预约挂号

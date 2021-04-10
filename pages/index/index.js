@@ -44,5 +44,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  person(){
+    wx.navigateTo({
+      url:"/pages/person/person"
+    })
   }
 })

@@ -1,0 +1,183 @@
+.date{
+  width: 90%;
+  border: 1rpx solid #F1F1F1;
+  height: 200rpx;
+  margin-left: 5%;
+  padding-top: 10rpx;
+}
+.datewhich view{
+  float: left;
+  width: 11%;
+  text-align: center;
+  line-height: 62rpx;
+  color: #AAAAAA;
+  font-size: 24rpx;
+  height: 62rpx;
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
+.what{
+  background-color: #E6F1FF;
+  float: left;
+  width: 11%;
+  text-align: center;
+  line-height: 62rpx;
+  color: black;
+  font-size: 24rpx;
+  height: 62rpx;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  border-radius: 50rpx;
+}
+.fist{
+  background-color: #006EFF;
+  color: #ffffff;
+}
+.doctor{
+  margin:5%
+}
+.body{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+}
+.patch{
+  margin-bottom: 20rpx;
+  border: 1rpx solid #F1F1F1;
+  height: auto;
+  border-radius: 10rpx;
+}
+.top{
+  width: 90%;
+  height: auto;
+  border-bottom: 1rpx solid #F1F1F1;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  padding-bottom: 30rpx;
+}
+.image{
+  width: 96rpx;
+  height: 96rpx;
+  float: left;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+}
+.name{
+  float: left;
+  margin-right: 20rpx;
+  color: #333333;
+  font-size: 30rpx;
+}
+.desc{
+  font-size: 24rpx;
+}
+.text{
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}
+.bottom{
+  width: 90%;
+  height: 100rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  line-height: 64rpx;
+}
+.price{
+  width: 160rpx;
+  height: 64rpx;
+  float: right;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  color: #F46363FC;
+}
+.time{
+  width: 160rpx;
+  height: 64rpx;
+  float: right;
+  background-color: #006EFF;
+  color: #ffffff;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+}
+
+
+.clickmeText{
+  padding: 10rpx;
+  border: 2rpx red solid;
+  border-radius: 15rpx;
+}
+/*使屏幕变暗 */
+.commodity_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000000;
+  opacity: 0.6;
+  overflow: hidden;
+  z-index: 1000;
+  color: #000000;
+  }
+  /*对话框 */
+  .commodity_attr_box {
+  height: 60%;
+  width: 97%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  background: #fff;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  border-radius: 30rpx;
+  }
+  .toptitle{
+    width: 90%;
+    height: 80rpx;
+    
+  }
+  .title{
+    font-size: 30rpx;
+    float: left;
+    width: 90%;
+    text-align: center;
+    line-height: 80rpx;
+  }
+  .delete{
+    font-size: 50rpx;
+    color: #D7D7D7;
+  }
+  .buttomdate{
+    width: 100%;
+    height: 250rpx;
+  }
+  .forenoondate{
+    margin-top: 20rpx;
+    width: 130rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    color: #7f7f7f;
+    font-size: 28rpx;
+    padding-left: 10rpx;
+    margin-bottom: 10rpx;
+  }
+  .datetop{
+    float: left;
+    width: 220rpx;
+    height: 64rpx;
+    line-height: 64rpx;
+    color: #006EFF;
+    background-color: #F1F7FF;
+    font-size: 24rpx;
+    border-radius: 10rpx;
+    margin: 8rpx;
+    text-align: center;
+    margin-bottom: 20rpx;
+  }
+  .hui{
+    color: #AAAAAA;
+    background-color: #F2F2F2;
+  }
