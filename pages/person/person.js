@@ -69,7 +69,7 @@ Page({
   doctors(e){
     let id=e.currentTarget.dataset.id
      wx.navigateTo({
-      url:"/pages/doctors/doctors"
+      url:"/pages/partition/partition"
     })
   }
 })
