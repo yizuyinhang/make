@@ -79,5 +79,10 @@ Page({
   onShareAppMessage: function () {
 
   },
- 
+  doctors(e){
+    let id=e.currentTarget.dataset.id
+     wx.navigateTo({
+      url:"/pages/doctors/doctors"
+    })
+  }
 })

@@ -1,0 +1,19 @@
+<!--pages/success/success.wxml-->
+<view class="top">
+    <text>预约成功</text>
+</view>
+<view class="middle">
+    <view class="image">
+        <image src="/img/2.png" />
+    </view>
+    <view class="text1">预约成功</view>
+    <view class="text2">您已经预约成功，请您持本人身份证按时就诊</view>
+</view>
+
+<!-- 底部 -->
+<view class="butten" bind:tap="check">
+    查看预约详情
+</view>
+<view class="return" bind:tap="returns">
+    返回首页
+</view>

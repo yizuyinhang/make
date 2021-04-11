@@ -21,23 +21,23 @@ Page({
       {'id':3,'name':'魏梦娇','desc':"小刀医生","text":"消化系统的疾病的治疗，擅长肝胆疾病的治疗",'price':'40','time':10,'pic':"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3350280679,2752505011&fm=26&gp=0.jpg"},
     ],
     forenoon:[
-      {"date":"9:00 剩余 10"},
-      {"date":"9:30 剩余 0","class":"hui"},
-      {"date":"10:00 剩余 10"},
-      {"date":"10:30 剩余 10"},
-      {"date":"11:00 剩余 10"},
-      {"date":"11:30 剩余 0","class":"hui"},
+      {"id":1,"date":"9:00 剩余 10"},
+      {"id":1,"date":"9:30 剩余 0","class":"hui"},
+      {"id":1,"date":"10:00 剩余 10"},
+      {"id":1,"date":"10:30 剩余 10"},
+      {"id":1,"date":"11:00 剩余 10"},
+      {"id":1,"date":"11:30 剩余 0","class":"hui"},
     ],
     afternoon:[
-      {"date":"13:30 剩余 10"},
-      {"date":"14:00 剩余 10","class":"hui"},
-      {"date":"14:30 剩余 10"},
-      {"date":"15:00 剩余 10"},
-      {"date":"15:30 剩余 10"},
-      {"date":"16:00 剩余 0","class":"hui"},
-      {"date":"16:30 剩余 10"},
-      {"date":"17:00 剩余 10"},
-      {"date":"17:30 剩余 10","class":"hui"}
+      {"id":1,"date":"13:30 剩余 10"},
+      {"id":1,"date":"14:00 剩余 10","class":"hui"},
+      {"id":1,"date":"14:30 剩余 10"},
+      {"id":1,"date":"15:00 剩余 10"},
+      {"id":1,"date":"15:30 剩余 10"},
+      {"id":1,"date":"16:00 剩余 0","class":"hui"},
+      {"id":1,"date":"16:30 剩余 10"},
+      {"id":1,"date":"17:00 剩余 10"},
+      {"id":1,"date":"17:30 剩余 10","class":"hui"}
     ]
   },
   onLoad: function (options) {},
@@ -87,5 +87,11 @@ Page({
         showModalStatus: false
       })
     }.bind(this), 200)
+  },
+  confirm(e){
+    let id=e.currentTarget.dataset.id
+     wx.navigateTo({
+      url:"/pages/confirm/confirm"
+    })
   }
 })

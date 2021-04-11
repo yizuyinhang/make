@@ -1,14 +1,11 @@
-// pages/person/person.js
+// pages/success/success.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    user:[
-      {"id":1,"name":"闫金涛","identity":"341***********1910"},
-      {"id":2,"name":"张晓东","identity":"622***********0909"}
-    ]
+
   },
 
   /**
@@ -16,6 +13,18 @@ Page({
    */
   onLoad: function (options) {
 
+  },
+  
+  check:function(){
+    wx.navigateTo({
+      url: '/pages/advance/advance',
+    })
+  },
+  returns:function(){
+    //跳转到确认预约信息页面
+    wx.switchTab({
+      url: '/pages/index/index',
+    })
   },
 
   /**
@@ -65,11 +74,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  doctors(e){
-    let id=e.currentTarget.dataset.id
-     wx.navigateTo({
-      url:"/pages/partition/partition"
-    })
   }
 })

@@ -1,14 +1,23 @@
-// pages/person/person.js
+// pages/cancel/cancel.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    user:[
-      {"id":1,"name":"闫金涛","identity":"341***********1910"},
-      {"id":2,"name":"张晓东","identity":"622***********0909"}
-    ]
+    data:{
+      'doctor':"赵马",
+      'doctorclass':"主治医生",
+      'hospital':"北京市第一人民医院-东院区",
+      'site':"北京市大兴区**路990号",
+      'office':"消化内科-门诊3楼东区501",
+      'consulting':"2020年12月30日 周一 上午",
+      'waitingtime':"9:30",
+      'cost':"60",
+      'appointmenttime':"2020年12月12号",
+      'ofpatient':"牛韦",
+      'idnumber':"610*********0989",
+    }
   },
 
   /**
@@ -65,11 +74,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  doctors(e){
-    let id=e.currentTarget.dataset.id
-     wx.navigateTo({
-      url:"/pages/partition/partition"
-    })
   }
 })

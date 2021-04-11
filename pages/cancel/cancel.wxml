@@ -1,0 +1,51 @@
+<view class="top">
+  <image src="http://cloud.axureshop.com/gsc/MBJIZJ/fd/b3/59/fdb3595c14f14e97b4f315ce42e02cef/images/%E9%A2%84%E7%BA%A6%E6%8C%82%E5%8F%B7%E8%AF%A6%E6%83%85_2/u2965.svg?token=99ff33a4ef05a14080efb2e8772635eb2a571f94122002a476ba5316f26ea5f9" class="successimg"></image>
+  <view class="success">已取消</view>
+</view>
+
+
+<view class="view">
+  <view class="user">
+      <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2205854476,2577755156&fm=26&gp=0.jpg" class="image"></image>
+    <view class="doctor">{{data.doctor}}</view>
+    <view class="doctorclass">{{data.doctorclass}}</view>
+  </view>
+  <view class="body">
+    <view class="title">就诊医院</view>
+    <view class="item">{{data.hospital}}</view>
+  </view>
+  <view class="body">
+    <view class="title">医院地址</view>
+    <view class="item">{{data.site}}</view>
+  </view>
+  <view class="body">
+    <view class="title">就诊科室</view>
+    <view class="item">{{data.office}}</view>
+  </view>
+  <view class="body">
+    <view class="title">门诊时间</view>
+    <view class="item">{{data.consulting}}</view>
+  </view>
+  <view class="body">
+    <view class="title">候诊时间</view>
+    <view class="item">{{data.waitingtime}}</view>
+  </view>
+  <view class="body">
+    <text class="title" decode="{{true}}">费&emsp;&emsp;用</text>
+    <view class="item price">￥{{data.cost}}</view>
+  </view>
+  <view class="body">
+    <view class="title">预约时间</view>
+    <view class="item">{{data.appointmenttime}}</view>
+  </view>
+</view>
+<view class="view">
+<view class="body">
+    <text class="title" decode="{{true}}">就&emsp;诊人</text>
+    <view class="item">{{data.ofpatient}}</view>
+  </view>
+  <view class="body">
+    <view class="title">身份证号</view>
+    <view class="item">{{data.idnumber}}</view>
+  </view>
+</view>
