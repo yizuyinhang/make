@@ -1,0 +1,30 @@
+<!-- pages/check/check.wxml -->
+<!-- <text>预约详情</text> -->
+<view class="top">
+    <text>预约详情</text>
+</view>
+<view class="middle">
+    <view class="image">
+        <image src="/image/3.png" />
+    </view>
+    <view class="text1">预约成功</view>
+</view>
+<view class="nav">
+    <block wx:for="{{data}}" wx:key="item">
+        <view class="nav1">
+            <text class="text">{{item.title}}</text>
+            <text decode="{{true}}">&nbsp;&nbsp;{{item.content}}</text>
+        </view>
+    </block>
+</view>
+
+    <view class="navs">
+        <view class="nav1">
+            <text class="text">就诊人</text>
+            <text decode="{{true}}">&nbsp;&nbsp;牛韦</text>
+        </view>
+        <view class="nav1">
+            <text class="text">身份证号</text>
+            <text decode="{{true}}">&nbsp;&nbsp;610*******0989</text>
+        </view>
+    </view>

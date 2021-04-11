@@ -1,0 +1,23 @@
+<!-- pages/date/date.wxml -->
+<!-- <text>报告详情</text> -->
+<view class="top">
+    <text>报告详情</text>
+</view>
+<!-- 就诊人信息 -->
+<view class="box">
+    <view class="tops">
+        <view class="box1">姓名:蒋峰</view>
+        <view class="box1">性别:女</view>
+        <view class="box1">年龄:24岁</view>
+    </view>
+    <view class="down">
+        <text>报告日期：2021-04-10</text>
+    </view>
+</view>
+<!-- 检测项目详情 -->
+<view class="content" bind:tap="much">
+    <view class="cont1">检查项目:心脏MR常规扫描</view>
+    <view class="cont2">影像表现:左侧心脏中动脉局部不规则变窄，分支未见明显减少，血管分布区未见异常。左侧心脏中动脉局部不规则变窄，分支未见明显减少，血管分布区未见异常。左侧心脏中动脉局部不规则变窄,分支未见明显减少，血管分布区未见异常。左侧心脏中动脉局部不规则变窄，分支未见明显减少，血管分布区未见异常。</view>
+    <view class="cont1">诊断意见:心脏中动脉狭窄</view>
+    <view class="cont1">报告医师:李纳</view>
+</view>

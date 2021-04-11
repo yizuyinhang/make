@@ -1,0 +1,117 @@
+/* pages/report/report.wxss */
+.top{
+  width: 100%;
+  height: 40rpx;
+  font-size: 35rpx;
+  text-align: center;
+}
+.box{
+  width: 90%;
+  height: 180rpx;
+  margin-left: 5%;
+  background-color: #F5F9FF;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+}
+
+/* 个人信息 */
+.tops{
+  width: 100%;
+  height: 90rpx;
+  margin-left: 50rpx;
+  padding-top: 20rpx;
+ 
+  
+}
+
+.box1{
+float: left;
+}
+
+
+.box2{
+  background-color: azure;
+  margin-left: 30rpx;
+  float: left;
+  border-radius: 10rpx;
+  color: rgb(139, 217, 231);
+  font-size: 30rpx;   
+}
+
+.box3{
+  width: 120rpx;
+  height: 30rpx;
+  /* background-color: aqua; */
+  font-size: 25rpx;
+  float: left;
+  margin-left: 330rpx;
+  line-height: 50rpx;
+  color: #cccccc;
+}
+
+
+.down{
+  width: 100%;
+  height: 40rpx;
+  color: #cecaca;
+  
+  margin-left: 50rpx;
+}
+.nav{
+    margin-left: 5%;
+    margin-top: 40rpx;
+    width: 90%;
+    height: 180rpx;
+    background-color:#F5F9FF ;
+
+}
+
+
+/* 选择查询报告列表 */
+.list{
+  width: 90%;
+  height: 500rpx;
+  margin-left: 5%;
+  /* background-color: aquamarine; */
+}
+
+.title{
+  width: 100%;
+  height: 120rpx;
+
+  border-bottom: 2rpx solid #f3f3f3;
+  line-height: 120rpx;
+
+}
+.list1{
+  width: 100%;
+  height: 110rpx;
+  margin-top: 10rpx;
+  line-height: 110rpx;
+  color: #837e7e;
+  border-bottom: 2rpx solid #f3f3f3;
+  /* background-color: azure; */
+}
+
+.base{
+  width: 90%;
+  height: 150rpx;
+  margin-left: 5%;
+  margin-top: 20rpx;
+  background-color: #F7F8F8;
+  border-radius: 20rpx;
+  
+
+}
+
+.text{
+  width: 90%;
+  height: 100rpx;
+  margin-left: 5%;
+  
+  font-size: 25rpx;
+  line-height: 50rpx;
+  color: #cecaca;
+  padding-top: 30rpx;
+}

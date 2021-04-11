@@ -1,0 +1,190 @@
+/* pages/apply/apply.wxss */
+/* 核酸检测申请 */
+.top{
+    width: 100%;
+    height: 40rpx;
+    font-size: 35rpx;
+    text-align: center;
+  }
+  /* 个人信息 */
+  .box{
+    width: 90%;
+    height: 180rpx;
+    margin-left: 5%;
+    background-color: #F5F9FF;
+    margin-top: 40rpx;
+    margin-bottom: 20rpx;
+    border-radius: 20rpx;
+  }
+  .tops{
+    width: 100%;
+    height: 90rpx;
+    margin-left: 50rpx;
+    padding-top: 20rpx;
+   
+    
+}
+  
+.box1{
+  float: left;
+  }
+.box2{
+    background-color: azure;
+    margin-left: 30rpx;
+    float: left;
+    border-radius: 10rpx;
+    color: rgb(139, 217, 231);
+    font-size: 30rpx;   
+  }
+.box3{
+    width: 120rpx;
+    height: 30rpx;
+    /* background-color: aqua; */
+    font-size: 25rpx;
+    float: left;
+    margin-left: 330rpx;
+    line-height: 50rpx;
+    color: #cccccc;
+  }
+.down{
+    width: 100%;
+    height: 40rpx;
+    color: #cecaca;
+    margin-left: 50rpx;
+  }
+
+
+  /* 科室 */
+.nav1{
+    width: 90%;
+    height: 50rpx;
+    margin-left: 5%; 
+    line-height: 50rpx;
+    font-size: 30rpx;
+    color: #BDB2AA;
+}
+
+
+/* 预约时间选择 */
+.nav2{
+    width: 90%;
+    height: 60rpx;
+    margin-left: 5%; 
+    line-height: 60rpx;
+    margin-top: 30rpx;
+    /* font-size: 30rpx; */
+    /* color: #BDB2AA; */
+}
+
+
+
+.select{
+    width: 90%;
+    margin-left: 5%;
+    height: 200rpx;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;   
+    border: 2rpx solid #eeeeee;
+    border-radius: 20rpx;
+
+}
+
+.day{
+  width: 100%;
+  height: 80rpx;
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+
+}
+.day1{
+  /* width: 100%; */
+  width: 12%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #cccccc;
+  font-size: 30rpx;
+  /* background-color: blueviolet; */
+}
+
+.num{
+  width: 100%;
+  height: 100rpx;
+  /* background-color: rgb(131, 84, 27); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+}
+
+.day2{
+  margin-top: 20rpx;
+  width: 13%;
+  height: 80rpx;
+  background-color: #E5F0FF;
+  border-radius: 35rpx;
+  color: black;
+  line-height: 80rpx;
+  text-align: center;
+}
+
+
+
+
+/* 时间 */
+.time{
+  width: 90%;
+  margin-left: 5%;
+}
+.toptitle{
+  width: 90%;
+  height: 80rpx;
+  
+}
+.title{
+  font-size: 30rpx;
+  float: left;
+  width: 90%;
+  text-align: center;
+  line-height: 80rpx;
+}
+.delete{
+  font-size: 50rpx;
+  color: #D7D7D7;
+}
+.buttomdate{
+  width: 100%;
+  height: 250rpx;
+}
+.forenoondate{
+  margin-top: 20rpx;
+  width: 130rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #7f7f7f;
+  font-size: 28rpx;
+  padding-left: 10rpx;
+  margin-bottom: 10rpx;
+}
+.datetop{
+  float: left;
+  width: 200rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  color: #006EFF;
+  background-color: #F1F7FF;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  margin: 8rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.hui{
+  color: #AAAAAA;
+  background-color: #F2F2F2;
+}
+ 

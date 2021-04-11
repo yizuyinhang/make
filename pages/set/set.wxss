@@ -1,0 +1,217 @@
+/* pages/set/set.wxss */
+.top{
+    width: 100%;
+    height: 40rpx;
+    font-size: 35rpx;
+    text-align: center;
+  
+  }
+
+.box{
+    width: 90%;
+    height: 180rpx;
+    margin-left: 5%;
+    background-color: #F5F9FF;
+    margin-top: 40rpx;
+    margin-bottom: 20rpx;
+    border-radius: 20rpx;
+  }
+  
+  /* 个人信息 */
+  .tops{
+    width: 100%;
+    height: 90rpx;
+    margin-left: 50rpx;
+    padding-top: 20rpx;
+   
+    
+  }
+  
+.box1{
+  float: left;
+  }
+.box2{
+    background-color: azure;
+    margin-left: 30rpx;
+    float: left;
+    border-radius: 10rpx;
+    /* color: rgb(139, 217, 231); */
+    font-size: 30rpx;   
+  }
+.box3{
+    width: 120rpx;
+    height: 30rpx;
+    /* background-color: aqua; */
+    font-size: 25rpx;
+    float: left;
+    margin-left: 330rpx;
+    line-height: 50rpx;
+    color: #cccccc;
+  }
+.down{
+    width: 100%;
+    height: 40rpx;
+    color: #cecaca;
+    margin-left: 50rpx;
+  }
+
+  /* 选择预约时间 */
+  .yy{
+    width: 90%;
+    height: 90rpx;
+    margin-left: 5%;
+    /* background-color: aqua; */
+    line-height: 90rpx;
+  }
+
+  .select{
+      width: 90%;
+      margin-left: 5%;
+      height: 200rpx;
+      background-color: #FFFFFF;
+      display: flex;
+      flex-direction: column;   
+
+  }
+
+.day{
+    width: 100%;
+    height: 80rpx;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+  
+}
+.day1{
+    /* width: 100%; */
+    width: 12%;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    color: #cccccc;
+    font-size: 30rpx;
+    /* background-color: blueviolet; */
+}
+
+.num{
+    width: 100%;
+    height: 100rpx;
+    /* background-color: rgb(131, 84, 27); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+}
+
+.day2{
+    margin-top: 20rpx;
+    width: 13%;
+    height: 80rpx;
+    background-color: #E5F0FF;
+    border-radius: 35rpx;
+    color: black;
+    line-height: 80rpx;
+    text-align: center;
+}
+
+
+/* 套餐详情 */
+.lists{
+    width: 100%;
+    height: 600rpx;
+    /* background-color: cornsilk; */
+    margin-top: 30rpx;
+}
+
+.list1{
+    width: 90%;
+    height: 80rpx;
+    /* background-color: cyan; */
+    margin-top: 5rpx;
+    border-bottom: 2rpx solid #cccccc;
+    margin-left: 5%;
+}
+
+.left{
+    width: 80%;
+    height: 80rpx;
+    /* background-color: cadetblue; */
+    line-height: 80rpx;
+    float: left;
+}
+.right{
+    width: 20%;
+    height: 80rpx;
+    float: left;
+    line-height: 80rpx;
+    color: crimson;
+}
+
+/* 预约须知 */
+.notice{
+    width: 90%;
+    height: 400rpx;
+    /* background-color: darkgoldenrod; */
+    margin-left: 5%;
+    margin-top: 20rpx;
+    border: 2rpx #eeeeee solid;
+}
+
+.nottop{
+    width: 90%;
+    height: 80rpx;
+    /* background-color: blueviolet; */
+    line-height: 80rpx;
+    margin-left: 5%;
+
+}
+
+.text{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    line-height: 50rpx;
+    font-size: 29rpx;
+    color: #333333;
+}
+
+/* 底部固定按钮 */
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  } 
+  .btn-view {
+    width: 100%;
+    height: 100rpx;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 100rpx;
+
+  }
+  .butlef{
+      width: 50%;
+      float: left;
+      height: 100rpx;
+      background-color: #FFFFFF;
+     
+  }
+  .money{
+      color: red;
+  }
+  .butright{
+    width: 50%;
+    float: right;
+    height: 100rpx;
+    color: #FFFFFF;
+    background-color: #006EFF;
+  }
+  

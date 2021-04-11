@@ -1,0 +1,60 @@
+<!-- pages/set/set.wxml -->
+<view class="top">
+    <text>套餐详情</text>
+</view>
+<view class="box" bindtap="clicks" data-id="{{item.uid}}" bindtap="make">
+    <view class="tops">
+        <view class="box1">蒋峰</view>
+        <view class="box2">本人</view>
+        <view class="box3">
+            <text>默认就诊人</text>
+        </view>
+    </view>
+    <view class="down">
+        <text>6222***********333</text>
+    </view>
+</view>
+<!-- 选择预约时间 -->
+<view class="yy">选择预约时间</view>
+<view class="select">
+    <view class="day">
+        <block wx:for="{{day}}" wx:key="item">
+            <view class="day1">{{item}}</view>
+        </block>
+    </view>
+    <view class="num">
+        <block wx:for="{{array}}" wx:key="item">
+            <view class="day2">{{item}}</view>
+        </block>
+    </view>
+</view>
+<view class="yy">套餐详情</view>
+<view class="list">
+    <block wx:for="{{list}}" wx:key="item">
+        <view class="list1">
+            <view class="left">{{item.title}}</view>
+            <view class="right">￥{{item.much}}</view>
+        </view>
+    </block>
+</view>
+<!-- 预约通知 -->
+<view class="notice">
+    <view class="nottop">预约须知</view>
+    <view class="notbdown">
+        <text class="text">1.套餐内的项目为固定项目,不可增减。</text>
+        <text class="text">2您可以选择一周内的号源，每周三早10点开放下一周号源。</text>
+        <text class="text">3、体检当日至我院至1门]诊楼三楼领取排队号。</text>
+        <text class="text">4、预约成功后如须退款，请于我院退费窗口办理。</text>
+    </view>
+</view>
+
+
+<!-- 底部按钮 -->
+<view class="container">
+  <view class='btn-view'>
+      <view class="butlef">合计:<text class="money">150￥</text></view>
+      <view class="butright" bind:tap="reserve">
+          下一步
+      </view> 
+  </view>
+</view>

@@ -1,0 +1,30 @@
+<!-- pages/report/report.wxml -->
+<!-- <text>pages/report/report.wxml</text> -->
+<!-- 选择报告类型页面 -->
+<view class="top">
+  <text>选择报告类型</text>
+</view>
+<!-- 就诊人信息 -->
+<view class="box" bindtap="clicks" data-id="{{item.uid}}" bindtap="make">
+  <view class="tops">
+    <view class="box1">蒋峰</view>
+    <view class="box2">本人</view>
+    <view class="box3">
+      <text>默认就诊人</text>
+    </view>
+  </view>
+  <view class="down">
+    <text>6222***********333</text>
+  </view>
+</view>
+<!-- 选择报告类型列表 -->
+<view class="list">
+  <view class="title">选择查询报告类型</view>
+  <block wx:for="{{list1}}" wx:key="item">
+  <view class="list1" bind:tap="list1">{{item}}</view>
+  </block>
+</view>
+<!-- 底部 -->
+<view class="base">
+  <view class="text">报告单内容仅供参考，最终结果已医院打印报告为准，最终解释权归本院所有。</view>
+</view>

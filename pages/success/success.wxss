@@ -1,0 +1,69 @@
+/* pages/success/success.wxss */
+/* 预约成功提示页面 */
+.top{
+    width: 100%;
+    height: 40rpx;
+    font-size: 35rpx;
+    text-align: center;
+  
+  }
+  /* 中间 */
+  .middle{
+      width: 100%;
+      height: 400rpx;
+      /* background-color: cornflowerblue; */
+      margin-top: 100rpx;
+  }
+  .image{
+      width: 100%;
+      height: 120rpx;
+      /* background-color: cornsilk; */
+      text-align: center;
+  }
+  image{
+      width: 120rpx;
+      height: 120rpx;
+  }
+
+  .text1{
+    height: 120rpx;
+    line-height: 120rpx;
+    text-align: center;
+    font-size: 45rpx;
+    color: #333333;
+ 
+
+  }
+  .text2{
+    /* height: 100rpx;
+    line-height: 100rpx; */
+    text-align: center;
+    color: #A9A9A9; 
+}
+
+/* 底部 */
+.butten{
+width: 90%;
+height: 90rpx;
+background-color: #3478F7;
+margin-left: 5%;
+margin-top: 50rpx;
+line-height: 90rpx;
+text-align: center;
+color: #ffffff;
+font-size: 40rpx;
+border-radius: 15rpx;
+}
+
+.return{
+    width: 90%;
+    height: 90rpx;
+    background-color: #E4F0FF;
+    margin-left: 5%;
+    margin-top: 20rpx;
+    line-height: 90rpx;
+    text-align: center;
+    font-size: 40rpx;
+    border-radius: 15rpx;
+    color:#3478F7
+}

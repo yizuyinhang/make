@@ -1,0 +1,115 @@
+/* pages/much/much.wxss */
+/* 费用详情 */
+.top{
+    width: 100%;
+    height: 40rpx;
+    font-size: 35rpx;
+    text-align: center;
+  }
+  /* 信息 */
+  .message{
+    width: 90%;
+    height: 320rpx;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color:#F5F9FF;
+    border-radius: 20rpx;
+  }
+  .tops{
+    width: 90%;
+    height: 110rpx;
+    line-height: 110rpx;
+    margin-left: 5%;
+    padding-top: 20rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    color: #333333;
+    /* background-color: aqua; */
+}
+
+.box1{
+    float: left;
+}
+
+
+.centre{
+  width: 90%;
+  height: 80rpx;
+  line-height:80rpx;
+  margin-left: 5%;
+  color: #cecaca; 
+  /* background-color: aquamarine; */
+  border-bottom:dashed 2rpx #cecaca;
+}
+
+
+.much{
+  width: 40%;
+  height: 100rpx;
+  float: right;
+  margin-right: 5%;
+  /* background-color: beige; */
+
+}
+
+
+/* 底部费用  */
+.base{
+  width: 90%;
+  height: 500rpx;
+  margin-left: 5%;
+  margin-top: 30rpx;
+  /* background-color: aquamarine; */
+  border:solid 2rpx #cecaca;
+  border-radius: 20rpx;
+}
+
+.base1{
+  width: 90%;
+  height: 90rpx;
+  line-height: 90rpx;
+  color: #AAAAAA;
+  margin-left: 5%;
+
+  border-bottom:solid 1rpx #e6e0e0;
+  font-size: 30rpx;
+}
+
+.base2{
+  width: 90%;
+  height: 120rpx;
+  margin-left: 5%;
+  margin-top: 5rpx;
+  /* background-color: bisque; */
+  border-bottom:solid 1rpx #e6e0e0;
+}
+.left{
+  width: 70%;
+  height: 120rpx;
+  /* background-color: aqua; */
+  float: left;
+}
+.right{
+  width: 30%;
+  height: 120rpx;
+  line-height: 120rpx;
+  float: left;
+  /* background-color: red; */
+  text-align: center;
+}
+.text1{
+  height: 60rpx;
+  line-height: 60rpx;
+  display:block;
+  /* background-color: salmon; */
+}
+.text2{
+  height: 60rpx;
+  line-height: 60rpx;
+  display:block;
+  color:#AAAAAA ;
+  font-size: 30rpx;
+  /* background-color: rgb(151, 114, 109); */
+}

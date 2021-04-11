@@ -1,0 +1,84 @@
+/* pages/select/select.wxss */
+/* 报告查询 */
+.top{
+    width: 100%;
+    height: 40rpx;
+    font-size: 35rpx;
+    text-align: center;
+  }
+
+  /* 时间选择 */
+.nav{
+    width: 90%;
+    height: 70rpx;
+    margin-top: 70rpx;
+    margin-left: 5%;
+    line-height: 90rpx;
+}
+.one{
+    width: 140rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    background-color: #006EFF;
+    text-align: center;
+    float: left;
+    border-radius: 30rpx;
+    color: #ffffff;
+
+}
+.time{
+    float: left;
+    width: 200rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    background-color: #E4F0FF;
+    color:#006EFF ;
+    border-radius: 30rpx;
+    margin-left: 50rpx;
+}
+
+.list{
+    width: 90%;
+    height: 250rpx;
+    
+    margin-top: 40rpx;
+    margin-left: 5%;
+    border: 2rpx solid #f3f3f3;
+    border-radius: 20rpx;
+}
+
+.left{
+    width: 70%;
+    float: left;
+}
+.list1{
+    width: 90%;
+    height: 100rpx;
+    line-height: 120rpx;
+    font-size: 38rpx;
+    margin-left: 5%;
+   
+    
+}
+.list2{
+    width: 90%; 
+    margin-left: 5%;
+}
+
+.text{
+    height: 60rpx;
+    line-height: 60rpx;
+    display: block;
+    color: #A8A8A8;
+}
+
+.right{
+    width: 30%;
+    height: 250rpx;
+    float: left;
+    text-align: center;
+    line-height: 250rpx;
+    color: #006EFF;
+    font-size: 38rpx;
+}

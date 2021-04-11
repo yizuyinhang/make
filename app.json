@@ -1,6 +1,29 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/hs/hs",
+    "pages/apply/apply",
+    
+    "pages/acid/acid",
+    
+   
+    "pages/much/much",
+    "pages/date/date",
+    
+   
+    "pages/select/select",
+    
+    "pages/check/check",
+    "pages/success/success",
+    "pages/reserve/reserve",
+  
+    "pages/set/set",
+    
+    "pages/make/make",
+ 
+    "pages/physical/physical",
+    "pages/nucle/nucle",
+    "pages/report/report",
     "pages/personal/personal",
     "pages/logs/logs"
   ],

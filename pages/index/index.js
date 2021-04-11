@@ -44,5 +44,27 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  //报告查询跳转
+  report:function(){
+   wx.navigateTo({
+     url: '/pages/report/report',
+   })
+  },
+  nucle:function(){
+    wx.navigateTo({
+      url: '/pages/nucle/nucle',
+    })
+   },
+   physical:function(){
+    wx.navigateTo({
+      url: '/pages/physical/physical',
+    })
+   },
+   acid:function(){
+    wx.navigateTo({
+      url: '/pages/acid/acid',
+    })
+   },
+   
 })

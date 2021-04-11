@@ -69,13 +69,17 @@
           <view class="lo"></view>
           <view class="shen">在线退款</view>
         </view>
-        <view class="hezi">
+        <view class="hezi" bindtap="report">
           <view class="lo"></view>
           <view class="shen">报告查询</view>
         </view>
-        <view class="hezi">
+        <view class="hezi" bindtap="nucle"  bindtap="acid">
           <view class="lo"></view>
           <view class="shen">核酸检测</view>
+        </view>
+        <view class="hezi" bindtap="physical">
+          <view class="lo"></view>
+          <view class="shen">体检服务</view>
         </view>
       </view>
     </view>

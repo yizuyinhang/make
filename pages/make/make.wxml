@@ -1,0 +1,45 @@
+<!-- pages/make/make.wxml -->
+<view class="top">
+    <text>体检预约</text>
+</view>
+<view class="box" bindtap="clicks" data-id="{{item.uid}}" bindtap="make">
+    <view class="tops">
+        <view class="box1">蒋峰</view>
+        <view class="box2">本人</view>
+        <view class="box3">
+            <text>默认就诊人</text>
+        </view>
+    </view>
+    <view class="down">
+        <text>6222***********333</text>
+    </view>
+</view>
+<view class="nav">
+    <view class="nav2">男性套餐</view>
+    <view class="nav1">女性套餐</view>
+    <view class="nav1">老年人套餐</view>
+    <view class="nav1">入职套餐</view>
+</view>
+<view class="base">
+    <view class="base1" bind:tap="set">
+        <view class="image"></view>
+        <view class="message">
+            <view class="text">
+                <view class="text1">女性基础套餐</view>
+                <view class="text2">项目：一般检查/内科检查/外科检查/血常规/尿常规</view>
+            </view>
+            <view class="much">1200￥</view>
+        </view>
+    </view>
+    <view class="base1">
+        <view class="image"></view>
+        <view class="message">
+            <view class="text">
+                <view class="text1">女性基础套餐</view>
+                <view class="text2">项目：一般检查/内科检查/外科检查/血常规/尿常规</view>
+            </view>
+            <view class="much">1200￥</view>
+        </view>
+    </view>
+
+</view>

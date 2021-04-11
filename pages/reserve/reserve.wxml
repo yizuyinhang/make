@@ -1,0 +1,51 @@
+<!-- pages/reserve/reserve.wxml -->
+<!-- <text>pages/reserve/reserve.wxml</text> -->
+<view class="top">
+    <text>确认预约信息</text>
+</view>
+<!-- 费用类型 -->
+<view class="nav">
+    <view class="nav1">
+        <text class="text">费用类型</text>
+        <text decode="{{true}}">&nbsp;&nbsp;体检费</text>
+    </view>
+    <view class="nav1">
+        <text class="text">就诊人</text>
+        <text decode="{{true}}">&nbsp;&nbsp;牛韦</text>
+    </view>
+    <view class="nav1">
+        <text class="text">就诊卡号</text>
+        <text decode="{{true}}">&nbsp;&nbsp;610******0989</text>
+    </view>
+</view>
+<!-- 费用明细 -->
+<view class="middle">
+    <view class="nav1" style="color: #C0C0C5;">费用明细</view>
+    <view class="nav2">
+        <text class="nav3">男性基础体检A套餐</text>
+        <text decode="{{true}}" class="nav4">单价：&nbsp;￥1200.00 数量：1 <text class="much">1200:00￥</text></text>
+    </view>
+</view>
+<!-- 支付方式 -->
+<view class="pay">
+    <view class="nav1">
+        <text class="text">支付方式</text>
+        <text decode="{{true}}">&nbsp;&nbsp;余额</text>
+    </view>
+    <view class="nav5">
+        <text class="text">卡内余额</text>
+        <text decode="{{true}}">&nbsp;&nbsp;2000.00元<text class="cz">去充值 > </text></text>
+       
+    </view>
+</view>
+
+
+<!-- 底部按钮 -->
+<view class="container">
+  <view class='btn-view'>
+      <view class="butlef">合计:<text class="money">1200￥</text></view>
+      <view class="butright" bind:tap="success">
+          确认支付
+      </view> 
+  </view>
+</view>

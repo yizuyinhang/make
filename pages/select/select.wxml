@@ -1,0 +1,21 @@
+<!-- pages/select/select.wxml -->
+<!-- 报告查询 -->
+<view class="top">
+    <text>报告查询</text>
+</view>
+<view class="nav">
+    <view class="one">近一年</view>
+    <view class="time">选择时间 ▼</view>
+</view>
+<block wx:for="{{[1, 2, 3]}}">
+    <view class="list"  bind:tap="date">
+        <view class="left">
+            <view class="list1">肝功能常规检查报告</view>
+            <view class="list2">
+                <text class="text">内科 刘美</text>
+                <text class="text">2021-04-10 11:05</text>
+            </view>
+        </view>
+        <view class="right">查看详情</view>
+    </view>
+</block>

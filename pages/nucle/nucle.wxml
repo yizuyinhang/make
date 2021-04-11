@@ -1,0 +1,29 @@
+<!--pages/nucle/nucle.wxml-->
+<view class="top">
+  <text>选择就诊人</text>
+</view>
+<view class="select">请选择就诊人</view>
+<view class="box" bindtap="clicks" data-id="{{item.uid}}">
+  <view class="tops">
+    <view class="box1">蒋峰</view>
+    <view class="box2">本人</view>
+    <view class="box3">
+      <text>默认就诊人</text>
+    </view>
+  </view>
+  <view class="down">
+    <text>6222***********333</text>
+  </view>
+</view>
+<view class="box" bindtap="clicks" data-id="{{item.uid}}">
+  <view class="tops">
+    <view class="box1">蒋峰</view>
+    <view class="box2">本人</view>
+    <view class="box3">
+      <text></text>
+    </view>
+  </view>
+  <view class="down">
+    <text>6222***********333</text>
+  </view>
+</view>
