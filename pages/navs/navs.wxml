@@ -1,0 +1,58 @@
+<!--pages/navs/navs.wxml-->
+<!-- ************************************** -->
+<view>
+  <view class="hezi">
+    <!-- 图片位置 -->
+    <view class="a">
+         <view class="image"></view>
+    <view class="nav">
+     <view class="xiang"> 北京市第一人民医院-东院</view>
+     <view class="bei"> 北京市大兴区**路990号</view>
+    </view>
+    </view>
+ 
+   <!-- ********************************* -->
+   <view class="tel">
+     <text class="tels">电话</text>
+     <text class="c">021-5889090   📞</text>
+   </view>
+   <view class="tel">
+     <text class="tels">手机</text>
+     <text class="c">021-5889090   📞</text>
+   </view>
+   <!-- ******************************************* -->
+   <view class="gong">
+     <text class="tels">手机</text>
+     <text>市内乘4,5,20,24,27,49,46路车可直达东茅岭院本部</text>
+   </view>
+   <!-- **************************************** -->
+  </view>
+</view>
+<!-- ******************************* -->
+<!-- 下面盒子 -->
+<!-- ******************************* -->
+<view>
+<navigator class="" target="" url="/pages/navmap/navmap" hover-class="navigator-hover" open-type="navigate" >
+   <view class="hezis">
+    <!-- 图片位置 -->
+    <view class="images"></view>
+    <view class="nav">
+     <view class="xiangs">地图导航</view>
+    </view>
+    <view class="left">></view>
+  </view>
+</navigator>
+ 
+  <navigator url="/pages/navcourt/navcourt">
+    <view class="hezis">
+    <!-- 图片位置 -->
+    <view class="images"></view>
+    <view class="nav">
+     <view class="xiangs">院内导航</view>
+    </view>
+    <view class="left">></view>
+  </view>
+  </navigator>
+
+</view>
+<!-- ********************************* -->

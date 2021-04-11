@@ -1,0 +1,9 @@
+<view> 
+  <view class="ren">请选择就诊人</view>
+  <view wx:for="{{user}}" wx:key="item">
+    <view bind:tap="doctors" data-id="{{item.id}}" class="user">
+      <view class="name">{{item.name}}</view>
+      <view class="crad">{{item.identity}}</view>
+    </view>
+  </view>
+</view>

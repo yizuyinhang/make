@@ -1,0 +1,65 @@
+<view class="{{wxml}}">
+  <view class="date">
+  <view class="datewhich">
+    <block wx:for="{{which}}" wx:key="item">
+      <view class="which">{{item}}</view>
+    </block>
+  </view>
+  <view class="datewhat">
+    <block wx:for="{{what}}" wx:key="item">
+      <view class="what {{item.class}}">{{item.what}}</view>
+    </block>
+  </view>
+</view>
+<view class="doctor">坐诊医生</view>
+<view class="body">
+  <block wx:for="{{doctors}}" wx:key="item">
+  <view class="patch">
+    <view class="top">
+      <image src="{{item.pic}}" class="image"></image>
+      <view class="name">{{item.name}}</view>
+      <view class="desc">{{item.desc}}</view>
+      <view class="text">{{item.text}}</view>
+     </view>
+    <view class="bottom">
+      <view class="time" bind:tap="clickme">剩余{{item.time}}</view>
+      <view class="price">￥{{item.price}}</view>
+    </view>
+  </view>
+</block>
+</view>
+
+</view>
+
+<!--屏幕背景变暗的背景 -->
+<view class="commodity_screen"  wx:if="{{showModalStatus}}"></view>
+<!--弹出框 -->
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}">
+
+<view class="toptotle">
+  <view class="title">
+    选择时间段
+  </view>
+  <view class="delete" bindtap="hideModal">
+    ×
+  </view>
+</view>
+
+<view class="buttomdate">
+  <view class="forenoondate">上午号源</view>
+  <view>
+    <block wx:for="{{forenoon}}" wx:key="item">
+      <view class="datetop {{item.class}}">{{item.date}}</view>
+    </block>
+  </view>
+</view>
+
+<view class="buttomdate">
+  <view class="forenoondate">下午号源</view>
+  <view>
+    <block wx:for="{{afternoon}}" wx:key="item">
+      <view class="datetop {{item.class}}">{{item.date}}</view>
+    </block>
+  </view>
+</view>
+</view>

@@ -45,6 +45,7 @@ Page({
       hasUserInfo: true
     })
   },
+
   //报告查询跳转
   report:function(){
    wx.navigateTo({
@@ -67,4 +68,11 @@ Page({
     })
    },
    
+
+  person(){
+    wx.navigateTo({
+      url:"/pages/person/person"
+    })
+  }
+
 })

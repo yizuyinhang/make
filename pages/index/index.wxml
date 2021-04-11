@@ -19,7 +19,7 @@
       <view class="top">  
         <view class="men"><view id="u126_div" class=""></view>门诊服务</view>
       <view class="title">
-        <view bind:tap="page" class="order1">
+        <view bind:tap="person" class="order1">
         <view class="biaoti">
           <view class="gua">
           预约挂号
@@ -93,22 +93,31 @@
     <view class="zhong zhong2">
         
         <view class="xuhao">
-          <view class="hezi" bind:tap="await">
+          <navigator url="/pages/introduce/introduce">
+         <view class="hezi" bind:tap="await">
             <view class="lo"></view>
             <view class="shen">医院介绍</view>
           </view>
-          <view class="hezi" bind:tap="pay">
+          </navigator>
+        <navigator url="/pages/nav/nav">
+           <view class="hezi" bind:tap="pay">
             <view class="lo"></view>
             <view class="shen">医院导航</view>
           </view>
-          <view class="hezi">
+        </navigator>
+         <navigator url="/pages/guide/guide">
+           <view class="hezi">
             <view class="lo"></view>
             <view class="shen">就医指南</view>
           </view>
-          <view class="hezi">
+         </navigator>
+        <navigator url="/pages/health/health">
+           <view class="hezi">
             <view class="lo"></view>
             <view class="shen">健康百科</view>
           </view>
+        </navigator>
+         
         </view>
       </view>
 

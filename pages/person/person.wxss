@@ -1,0 +1,23 @@
+/* pages/bask/bask.wxss */
+.user{
+  width: 93%;
+  height: 180rpx;
+  background-color: #F5F9FF;
+  border: 1rpx solid #cccccc;
+  margin-top: 25rpx;
+  margin-left: 25rpx;
+  border-radius: 10rpx;
+}
+.name{
+  margin-left: 30rpx;
+  margin-top: 25rpx;
+}
+.crad{
+  margin-left: 30rpx;
+  margin-top: 25rpx;
+  font-size: 24rpx ;
+  color: #AAAAAA;
+}
+.ren{
+  margin-left: 30rpx;
+}

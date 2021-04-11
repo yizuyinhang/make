@@ -43,8 +43,8 @@
     <view class="xuzhi2">
         <text class="textxu">1.核酸检测结果有效期: 7天。</text>
         <text class="textxu">2.受检者必须全程佩戴口罩，采样时将口罩封装在塑料袋里放入口袋中，采样后立即佩戴好口罩。</text>
-        <text class="textxu">3、新冠病毒核酸检测(咽拭子)采样前2小时不进食、不吸烟、不饮酒，采样前清水漱口。</text>
-        <text class="textxu">4、预约成功后如须退款，请于我院退费窗口办理。</text>
+        <text class="textxu">3.新冠病毒核酸检测(咽拭子)采样前2小时不进食、不吸烟、不饮酒，采样前清水漱口。</text>
+        <text class="textxu">4.预约成功后如须退款，请于我院退费窗口办理。</text>
     </view>
 
 </view>
