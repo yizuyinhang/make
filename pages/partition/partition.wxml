@@ -13,7 +13,10 @@
   </view>
   <view class="view2">
     <view  wx:for="{{findbask}}" wx:key="item">
-    <view class="name" bind:tap="doctors" data-id="{{item.id}}">{{item.name}}</view>
+    <navigator url="/pages/doctors/doctors">
+     <view class="name" bind:tap="doctors" data-id="{{item.id}}">{{item.name}}</view>
+    </navigator>
+   
     </view>
   </view>
 </view>
