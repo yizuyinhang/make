@@ -1,6 +1,11 @@
 <view class="top">
-  <image src="http://cloud.axureshop.com/gsc/MBJIZJ/fd/b3/59/fdb3595c14f14e97b4f315ce42e02cef/images/%E7%BC%B4%E8%B4%B9%E8%AF%A6%E6%83%85/u2728.svg?token=9aa1241c75c32cab8a57ffa209c3a2ce56f17f587962e6c2209a4bb7e7dacd1a" class="successimg"></image>
-  <view class="success">预约成功</view>
+
+  <view class="success">
+    <view class="images">
+        <image src="/img/2.png" />
+    </view>
+    预约成功
+  </view>
 </view>
 
 

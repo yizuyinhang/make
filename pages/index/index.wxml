@@ -57,10 +57,13 @@
           <view class="lo"></view>
           <view class="shen">候审</view>
         </view>
-        <view class="hezi" bind:tap="pay">
+        <navigator url="/pages/jiaofe/jiaofe">
+          <view class="hezi" bind:tap="pay">
           <view class="lo"></view>
           <view class="shen">自助缴费</view>
         </view>
+        </navigator>
+        
         <view class="hezi">
           <view class="lo"></view>
           <view class="shen">门诊费用</view>

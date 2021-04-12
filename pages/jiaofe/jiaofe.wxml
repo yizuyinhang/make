@@ -1,0 +1,57 @@
+<!--pages/jiaofe/jiaofe.wxml-->
+<!-- <text>pages/jiaofe/jiaofe.wxml</text> -->
+<view>
+   <view class="pore">
+      <view class="porez"> 
+         <view>张三</view>
+         <view class="porez-lo">6245151515</view>
+      </view>
+      <view class="porey">
+         <view class="iconfont  icon-qiehuan" bindtap="porets"></view>
+         <view class="porey-lot">切换就诊人</view> 
+      </view>
+   </view>
+
+   <view class="qian">
+      <text class="ka">卡内余额</text><text class="kak">￥60.00</text>
+   </view>
+   
+   <view class="dai">代缴费项目</view>
+
+   <view class="yao">
+      <view class="yaoz">
+         <view>西药费</view>
+         <view class="yaoz-nei">神经内科</view>
+         <view class="yaoz-shi">2020-20</view>
+      </view>
+      <view class="yaoy">
+         <view class="yaoy-jia">￥60</view>
+         <view class="yaoy-jiao" bindtap="jiao">缴费</view>
+      </view>
+   </view>
+
+   <view class="yao">
+      <view class="yaoz">
+         <view>西药费</view>
+         <view class="yaoz-nei">神经内科</view>
+         <view class="yaoz-shi">2020-20</view>
+      </view>
+      <view class="yaoy">
+         <view class="yaoy-jia">￥60</view>
+         <view class="yaoy-jiao" bindtap="jiao">缴费</view>
+      </view>
+   </view>
+   <view class="yao">
+      <view class="yaoz">
+         <view>西药费</view>
+         <view class="yaoz-nei">神经内科</view>
+         <view class="yaoz-shi">2020-20</view>
+      </view>
+      <view class="yaoy">
+         <view class="yaoy-jia">￥60</view>
+         <view class="yaoy-jiao" bindtap="jiao">缴费</view>
+      </view>
+   </view>
+
+
+</view>

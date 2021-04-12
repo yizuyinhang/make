@@ -1,0 +1,56 @@
+<!--pages/jiaofeis/jiaofeis.wxml-->
+<view>
+   <view class="pore">
+      <view class="porez"> 
+         <view>张三</view>
+         <view class="porez-lo">6245151515</view>
+      </view>
+      <view class="porey">
+         <view class="iconfont  icon-qiehuan" bindtap="porets"></view>
+         <view class="porey-lot">切换就诊人</view> 
+      </view>
+   </view>
+
+   <view class="qian">
+  <view class="jin">近一年</view>
+  <picker class="time" mode="time">选择时间 ▼</picker>
+   </view>
+ 
+
+   <view class="yao">
+      <view class="yaoz">
+         <view>西药费</view>
+         <view class="yaoz-nei">神经内科</view>
+         <view class="yaoz-shi">2020-20</view>
+      </view>
+      <view class="yaoy">
+         <view class="yaoy-jia">￥60.00</view>
+      
+      </view>
+   </view>
+
+   <view class="yao">
+      <view class="yaoz">
+         <view>西药费</view>
+         <view class="yaoz-nei">神经内科</view>
+         <view class="yaoz-shi">2020-20</view>
+      </view>
+      <view class="yaoy">
+         <view class="yaoy-jia">￥60.00</view>
+        
+      </view>
+   </view>
+   <view class="yao">
+      <view class="yaoz">
+         <view>西药费</view>
+         <view class="yaoz-nei">神经内科</view>
+         <view class="yaoz-shi">2020-20</view>
+      </view>
+      <view class="yaoy">
+         <view class="yaoy-jia">￥60.00</view>
+       
+      </view>
+   </view>
+
+
+</view>
