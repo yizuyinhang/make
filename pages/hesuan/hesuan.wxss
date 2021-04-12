@@ -1,0 +1,198 @@
+/* pages/hesuan/hesuan.wxss */
+/* pages/yuyues/yuyues.wxss */
+
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2474385_bqu15cds5tf.eot?t=1617884727776'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2474385_bqu15cds5tf.eot?t=1617884727776#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAKAAAsAAAAABiwAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAo0UAE2AiQDCAsGAAQgBYRtBzEbdwXIrjBumYmESE6dbWMl4Km7CFAwWsTD01p7f3b2DvOkGkkmWTTRLHloVJLGACnQNZP3/tfanGpI8/p5vGSaBPrK/BWfHTR5y4RISIQIodEAN7nMe+Hi50u7vMCYgQ04hYFS3BbZeIINuJz+KKBA5gHltieNNXlMwMDSAMdaFFmRRN4wdoFLOE6gyaCezPbmdIWyzBoXiCvH0qCc88oySzQItZqlWTwrNaTHdOAp/H78mUSZpCxYJXuXaxNmX9gpxUMVpz7BR0CrSxSYBzJxVBvdkROMldMUzRsF+yoMvqgq3yL2ahTsr7PyW0A/jAVfuCsESCDH3U3oGHUHqSzPQHXDc3tcdL/9sbysJ+vR78A6QLWsWJRB8PJ23Vr+L5PBZ41I+tlBw7q24B+IezZlXWqZU1bFtfakadTYhCZNqGBnl7+xut4TJkOD3tPa6wZSFBqMk5k5j1KzBdQ0WEOTOdvVzbqxnMiNmPUJEDp8IWnzjkKHHzIzf1Hq84+ajsihyUl0b9lsMpzqFpMmZKL+hI4RhcqxSjUqPJN152uclYbsW+LUCeCYiokthcRzzEjvrYmIQsVRgBtwGvl+hDFHLhkysEXi6dDr3jQwogCqtjCiEcSEdE+QwxAJKb+zqJY+f0Ysd3wabimrCd4iLOX0jsYGRj3IrSrsVXYvr6TuWSaEUJDCIgG0AYOIzxdBcf0gFzGIAXtEODY1tNupvqrB+prgAwpZFZY+hd23UL93yL7TQgAAAA==') format('woff2'),
+  url('//at.alicdn.com/t/font_2474385_bqu15cds5tf.woff?t=1617884727776') format('woff'),
+  url('//at.alicdn.com/t/font_2474385_bqu15cds5tf.ttf?t=1617884727776') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2474385_bqu15cds5tf.svg?t=1617884727776#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qiehuan:before {
+  content: "\e741";
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #3399FF;
+}
+
+.icon-qiehuan:before {
+  content: "\e741";
+}
+
+.pore{
+  width: 95%;
+  height: 6rem;
+  background: #e2edfe;
+  border-radius: 0.5rem;
+  margin-left:0.5rem ;
+  margin-top:1rem ;
+}
+.porez{
+  width: 60%;
+  height: 4rem;
+  float: left;
+  background:#e2edfe;
+  margin-top:2rem ;
+  margin-left:2rem ;
+}
+.porez-lo{
+  font-size:0.8rem;
+}
+/* 就诊人 */
+.porey{
+  width: 31%;
+  /* height: 7rem; */
+  float: left;
+  /* background: #cccccc; */
+  text-align: center;
+  margin-top:2rem ;
+  
+}
+.porey .porey-lot{
+  font-size:0.8rem;
+  
+}
+
+.qian{
+  width: 93%;
+  height: 3rem;
+  background: #ffffff;
+  margin-left:0.5rem ;
+  margin-top:30rpx ;
+  border-radius:5rpx ;
+
+  line-height: 3rem;
+  padding-left:10rpx ;
+}
+
+.jin{
+  width: 18%;
+  height: 50rpx;
+  background-color:#006EFF ;
+  color: white;
+  font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  border-radius: 20rpx;
+  text-align: center;
+  float: left;
+}
+.time{
+  width: 25%;
+  height: 50rpx;
+  background-color: #e2edfe;
+ float: left;
+ margin-left: 30rpx;
+  font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  border-radius: 60rpx;
+  text-align: center;
+  color: #006EFF;
+}
+.left{
+  float: left;
+}
+.right{
+  float: left;
+  margin-left: 40rpx;
+}
+.yaoz-a{
+  font-size: 27rpx;
+  padding-top:15rpx ;
+ 
+  margin-top: 10rpx;
+}
+.dai{
+  margin: 40rpx 30rpx;
+
+}
+.yao{
+  width: 95%;
+  height: 300rpx;
+  /* background:#ccc; */
+  margin-left:20rpx ;
+  border-radius:5rpx ;
+  border:1rpx solid #eee ;
+  margin-bottom:25rpx ;
+}
+.yaoz{
+  float: left;
+  width: 90%;
+  margin-left:20rpx ;
+  margin-top:30rpx ;
+
+}
+.na{
+  float: left;
+}
+.top{
+  width: 100%;
+  height: 60rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.yu{
+  float: right;
+ 
+  font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  border-radius: 60rpx;
+  text-align: center;
+  color: #006EFF;
+}
+ .yaoz-nei{
+  font-size: 27rpx;
+  padding-top:15rpx ;
+  color: #bbbbbb;
+  margin-top: 10rpx;
+}
+
+
+.yaoy{
+  float: left;
+  width: 25%;
+  margin-top:40rpx ;
+  
+}
+
+.yaoy-jia{
+  margin-left:20rpx ;
+  color:#FF6666 ;
+  margin-top: 30rpx;
+}
+
+.yaoy-jiao{
+  width: 130rpx;
+  height: 55rpx;
+  background: #0066FF;
+  text-align: center;
+  line-height: 55rpx;
+  color: #fff;
+  margin-top:5rpx ;
+  border-radius:8rpx ;
+}

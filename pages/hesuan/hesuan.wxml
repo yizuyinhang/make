@@ -1,0 +1,100 @@
+<!--pages/hesuan/hesuan.wxml-->
+
+<view>
+   <view class="pore">
+      <view class="porez"> 
+         <view>张三</view>
+         <view class="porez-lo">6245151515</view>
+      </view>
+      <view class="porey">
+         <view class="iconfont  icon-qiehuan" bindtap="porets"></view>
+         <view class="porey-lot">切换就诊人</view> 
+      </view>
+   </view>
+
+   <view class="qian">
+  <view class="jin">近一年</view>
+  <picker class="time" mode="time">选择时间 ▼</picker>
+   </view>
+ 
+<!-- ****************************************** -->
+   <view class="yao">
+      <view class="yaoz">
+        <view class="top">
+            <view class="na">新型冠状病毒核酸检测（咽拭子）</view>
+            <view class="yu">预约成功</view>
+        </view>
+       <!-- *********************************** -->
+       <view class="left">
+           <view class="yaoz-nei">就诊科室</view>
+         <view class="yaoz-nei">就诊时间</view>
+         <view class="yaoz-nei">就诊人</view>
+       </view>
+       
+<!-- ************************** -->
+<view class="right">
+  <view class="yaoz-a">保健科</view>
+         <view class="yaoz-a">2020年10月5日 10:50</view>
+         <view class="yaoz-a">王敏</view>
+</view>
+
+<!-- ************************ -->
+      </view>
+   </view>
+<!-- ***************************************** -->
+   
+<!-- ****************************************** -->
+<view class="yao">
+      <view class="yaoz">
+        <view class="top">
+            <view class="na">新型冠状病毒核酸检测（咽拭子）</view>
+            <view class="yu">已完成</view>
+        </view>
+       <!-- *********************************** -->
+       <view class="left">
+           <view class="yaoz-nei">就诊科室</view>
+         <view class="yaoz-nei">就诊时间</view>
+         <view class="yaoz-nei">就诊人</view>
+       </view>
+       
+<!-- ************************** -->
+<view class="right">
+  <view class="yaoz-a">保健科</view>
+         <view class="yaoz-a">2020年10月5日 10:50</view>
+         <view class="yaoz-a">王敏</view>
+</view>
+
+<!-- ************************ -->
+      </view>
+   </view>
+<!-- ***************************************** -->
+ 
+<!-- ****************************************** -->
+<view class="yao">
+      <view class="yaoz">
+        <view class="top">
+            <view class="na">新型冠状病毒核酸检测（咽拭子）</view>
+            <view class="yu">已取消</view>
+        </view>
+       <!-- *********************************** -->
+       <view class="left">
+           <view class="yaoz-nei">就诊科室</view>
+         <view class="yaoz-nei">就诊时间</view>
+         <view class="yaoz-nei">就诊人</view>
+       </view>
+       
+<!-- ************************** -->
+<view class="right">
+  <view class="yaoz-a">保健科</view>
+         <view class="yaoz-a">2020年10月5日 10:50</view>
+         <view class="yaoz-a">王敏</view>
+</view>
+
+<!-- ************************ -->
+      </view>
+   </view>
+<!-- ***************************************** -->
+
+</view>
+
+

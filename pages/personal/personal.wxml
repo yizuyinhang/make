@@ -8,7 +8,7 @@
 </view>
 
 <view class="body" >
-  <block wx:for="{{[1, 2, 3,4,5,6]}}" wx:key='key'>
+ 
     <view class="title"  bind:tap="wode">
   <view class="pic">
     <image class="img" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1272149684,3295844101&fm=26&gp=0.jpg"></image>
@@ -16,13 +16,56 @@
   <view class="names">管理就诊人</view>
   <view class="you">></view>
 </view>
-  </block>
 
-
-
+<!-- ************************************ -->
+<navigator url="/pages/yuyues/yuyues">
+  <view class="title"  bind:tap="wode">
+  <view class="pic">
+    <image class="img" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1272149684,3295844101&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class="names">预约挂号记录</view>
+  <view class="you">></view>
 </view>
+</navigator>
 
+<!-- ********************************** -->
+<!-- ************************************ -->
+<navigator url="/pages/jiaofeis/jiaofeis">
+  <view class="title"  bind:tap="wode">
+  <view class="pic">
+    <image class="img" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1272149684,3295844101&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class="names">门诊缴费记录</view>
+  <view class="you">></view>
+</view>
+</navigator>
 
+<!-- ********************************** -->
+<!-- ************************************ -->
+<navigator url="/pages/hesuan/hesuan">
+  <view class="title"  bind:tap="wode">
+  <view class="pic">
+    <image class="img" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1272149684,3295844101&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class="names">核算预约记录</view>
+  <view class="you">></view>
+</view>
+</navigator>
+
+<!-- ********************************** -->
+<!-- ************************************ -->
+<navigator url="/pages/tijian/tijian">
+  <view class="title"  bind:tap="wode">
+  <view class="pic">
+    <image class="img" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1272149684,3295844101&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class="names">体检记录</view>
+  <view class="you">></view>
+</view>
+</navigator>
+
+<!-- ********************************** -->
+</view>
 
 </view>
 
