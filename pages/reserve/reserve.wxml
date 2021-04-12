@@ -47,5 +47,6 @@
       <view class="butright" bind:tap="success">
           确认支付
       </view> 
-  </view>
 </view>
+</view>
+

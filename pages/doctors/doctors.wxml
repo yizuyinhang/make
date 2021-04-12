@@ -49,7 +49,7 @@
   <view class="forenoondate">上午号源</view>
   <view>
     <block wx:for="{{forenoon}}" wx:key="item">
-      <view class="datetop {{item.class}}">{{item.date}}</view>
+      <view class="datetop {{item.class}}" bind:tap="confirm" data-id="{{item.id}}">{{item.date}}</view>
     </block>
   </view>
 </view>
@@ -58,7 +58,7 @@
   <view class="forenoondate">下午号源</view>
   <view>
     <block wx:for="{{afternoon}}" wx:key="item">
-      <view class="datetop {{item.class}}">{{item.date}}</view>
+      <view class="datetop {{item.class}}"  bind:tap="confirm" data-id="{{item.id}}">{{item.date}}</view>
     </block>
   </view>
 </view>

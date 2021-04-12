@@ -1,13 +1,23 @@
-
-// pages/reserve/reserve.js
-
+// pages/cancel/cancel.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    data:{
+      'doctor':"赵马",
+      'doctorclass':"主治医生",
+      'hospital':"北京市第一人民医院-东院区",
+      'site':"北京市大兴区**路990号",
+      'office':"消化内科-门诊3楼东区501",
+      'consulting':"2020年12月30日 周一 上午",
+      'waitingtime':"9:30",
+      'cost':"60",
+      'appointmenttime':"2020年12月12号",
+      'ofpatient':"牛韦",
+      'idnumber':"610*********0989",
+    }
   },
 
   /**
@@ -16,16 +26,6 @@ Page({
   onLoad: function (options) {
 
   },
-
-
-  success:function(){
-    //跳转到确认预约信息页面
-    wx.navigateTo({
-      url: '/pages/success/success',
-    })
-  },
-
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成
