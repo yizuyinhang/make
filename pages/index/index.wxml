@@ -68,10 +68,13 @@
           <view class="lo"></view>
           <view class="shen">门诊费用</view>
         </view>
-        <view class="hezi">
+        <navigator url="/pages/refund/refund">
+           <view class="hezi">
           <view class="lo"></view>
           <view class="shen">在线退款</view>
         </view>
+        </navigator>
+     
         <view class="hezi" bindtap="report">
           <view class="lo"></view>
           <view class="shen">报告查询</view>

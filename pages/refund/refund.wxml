@@ -1,0 +1,44 @@
+<view class="box">
+  <block>
+    <view class="box1">
+      <view class="box2">
+        <view class="box3">
+          <view>
+            <text>蒋峰</text>
+            <text class="box5">本人</text>
+          </view>
+        </view>
+        <view class="box3">622********0909</view>
+      </view>
+      <view class="box6 picker">
+        <picker class="pickers" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view>
+        <image src="/image/arrows.png"></image>
+        <view>切换就诊人</view>
+      </view>
+      </picker>
+        
+      </view>
+    </view>
+  </block>
+  <view class="box9">
+    <view class="box10">
+      <view class="box11">卡内余额</view>
+    </view>
+    <view class="price"><text>￥60.00</text></view>
+  </view>
+
+  <view class="box9">
+    <view class="box10">
+      <view class="box11">退款金额</view>
+    </view>
+    <view class="price"><text>全部</text></view>
+    <view>
+      <input type="text" placeholder="请输入退款金额"></input>
+    </view>
+  </view>
+  <view class='box12'>
+    <text>退款金额将原路返回到您的账户，如需要退款至银行卡或现金，请至1楼大厅窗口办理</text>
+  </view>
+  <button type="primary" style="background-color:rgb(14, 156, 245)" bindtap="verify">确认追款</button>
+</view>

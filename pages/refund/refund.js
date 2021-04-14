@@ -1,25 +1,32 @@
-// pages/confirm/confirm.js
+// pages/refund/refund.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    data:{
-      'doctor':"赵马",
-      'doctorclass':"主治医生",
-      'hospital':"北京市第一人民医院-东院区",
-      'site':"北京市大兴区**路990号",
-      'office':"消化内科-门诊3楼东区501",
-      'consulting':"2020年12月30日 周一 上午",
-      'waitingtime':"9:30",
-      'cost':"60",
-      'appointmenttime':"2020年12月12号",
-      'ofpatient':"牛韦",
-      'idnumber':"610*********0989",
-    }
+    value:[9999,1,2],
+    date: '2021-04-08',
+    array: ['秦泽鑫', '江程']
   },
-
+  bindPickerChange: function(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index: e.detail.value
+    })
+  },
+verify:function(){
+  wx.showModal({
+    title: '确定退款吗',
+    success(res) {
+      if (res.confirm) {
+　　　console.log('用户点确定了')
+      } else if (res.cancel) {
+        console.log('用户点击取消')
+      }
+ }    
+})
+},
   /**
    * 生命周期函数--监听页面加载
    */
@@ -74,10 +81,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  reserve(){
-    wx.navigateTo({
-      url:"/pages/success/success"
-    })
   }
 })

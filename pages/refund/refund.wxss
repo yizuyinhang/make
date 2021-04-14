@@ -1,0 +1,102 @@
+
+.box{
+  width: 94%;
+  margin: 0px auto;
+}
+.box1{
+  margin-bottom: 20rpx;
+  background-color: #F5F9FF;
+  height: 180rpx;
+}
+.box2{
+  display: flex;
+  float: left;
+  flex-direction:column;
+  align-items: center;
+}
+.box3{
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.box4{
+  color: #cccccc;
+}
+
+.box5{
+  margin-left: 30rpx;
+  background:#E2EDFE ;
+  padding: 0rpx 20rpx;
+  font-size: 28rpx;
+  color: #1570FF;
+  border-radius:28rpx;
+}
+
+image{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.box6{
+  float:right;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+
+.box9{
+  margin-top: 20px;
+  border:1px solid lightgray;
+  box-shadow: lightgray 1px;
+  border-radius:8rpx;
+  overflow: hidden;
+}
+
+.box10{
+  margin: 0px auto;
+  margin: 30rpx 15rpx;
+  float: left;
+
+}
+
+.box11{
+  font-size: 16px;
+  margin: 15rpx 10rpx;
+}
+.times{
+  font-size: 15px;
+  margin: 15rpx 10rpx;
+}
+.price{
+  float:right;
+  font-size: 16px;
+  margin: 18px 5px 0 0;
+  color:black;
+}
+input{
+  float: left;
+  width:85%;
+  display: flex;
+  justify-self: center;
+  background-color: #F2F2F2;
+  margin: 10rpx 10rpx 20rpx 10rpx;
+  padding: 50rpx;
+  border-radius: 5px;
+}
+.box12{
+  width:85%;
+  display: flex;
+  font-size: 25rpx;
+  justify-self: center;
+  background-color: #F2F2F2;
+  margin: 10rpx 10rpx 20rpx 10rpx;
+  padding: 50rpx;
+  border-radius: 5px;
+}
+.pickers{
+  color: red;
+}
+
